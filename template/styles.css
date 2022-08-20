@@ -1,0 +1,48 @@
+html {
+ font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.top {
+    min-height: 30ch;
+    width: 150ch;
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+
+
+.top__image {
+
+    height: 100%;
+    width: 20%;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    left:0;
+    margin:  0;
+    padding: 0;
+}
+
+.top__p {
+    min-height: 100%;
+    width: 80%;
+    background-color: rgb(152, 152, 204);
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-size: 1rem;
+    margin-left: 1ch;
+    border-radius: 3ch;
+    padding-left: 3ch;
+    border: 1ch solid blue;
+
+}
